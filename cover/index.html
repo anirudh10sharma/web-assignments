@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Button Hover</title>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body >
+    <section id="myDIV" style="height: 100%;width: 100%;background-image: url(https://images.unsplash.com/photo-1563569612166-d2aaeaaa5294?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80);position: absolute;display: flex;justify-content: center;background-position: center;background-clip: content-box;background-size: 100%;">
+  <div class="button">
+    <button onclick="myFunction()" class="raise">Button</button>
+  </div>
+</section>
+  <script>
+    function myFunction() {
+   document.getElementById("myDIV").style.backgroundImage = "url(https://images.unsplash.com/photo-1488330890490-c291ecf62571?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)";
+}
+    </script>
+</body>
+</html>

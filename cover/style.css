@@ -1,0 +1,45 @@
+.raise:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+  }
+  
+  .raise {
+      --color: #ff3f04;
+      --hover: #1cff42;
+    }
+    button {
+      background: none;
+      border: 2px solid;
+      font: inherit;
+      line-height: 1;
+      margin: 0.5em;
+      padding: 1em 2em;
+      border-bottom-left-radius: 75%;
+      border-top-right-radius: 75%;
+      cursor: pointer;
+     position: absolute;
+     bottom: 20%;
+    }
+  
+    body {
+      color: #9e1d1d;
+      background: #050101;
+      font: 300 1em "Fira Sans", sans-serif;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      position: relative;
+    }
+    
+  button {
+      color: var(--color);
+      transition: 0.25s;
+    }
+    button:hover, button:focus {
+      border-color: var(--hover);
+      
+      color: var(--hover);
+    }
