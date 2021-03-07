@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{position: fixed;
+    background-color: #f0eaea;
+    height: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    width: 100%;
+    border: 1px;
+    border-color: yellow;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25% ;
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+z-index: 9;
+}
+ul{
+    list-style: none;
+    align-items: baseline;
+}
+li{
+    display: inline-block;
+    
+}
+a{
+    text-decoration: none;
+    color: tomato;
+    margin-top: 10px;
+    padding: 10px;
+}
+.btn btn-primary {
+    color: rgba(67, 235, 1, 0.932);
+}
+li img{position: absolute;
+    height: 80px;
+    width: 100px;
+    justify-content: center;
+margin-left: 45%;
+
+bottom: 0px;
+    
+}
+.no{
+    display: inline-block;
+    
+    
+    
+}
+#signup {
+    position: absolute;
+    margin-left: 70%;
+}
+
+section {background-image: url(https://logos-download.com/wp-content/uploads/2016/05/FC_Barcelona_logo_logotipo_crest.png);
+    height: 800px;
+    width: 70%;
+    
+    background-size: cover;
+
+    margin: 0px auto;
+    display: flex;
+     
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+     
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    height: 200px;
+    width: ;
+    
+    position: relative;
+    
+    font-size: 1.8rem;
+    transition: 1s;
+  transform-style: preserve-3d;
+  }
+
+  @media screen and (max-width:600px){
+    .container {
+      height: 150px;
+      
+      width: 40px;
+      position: relative;
+      border: 2px solid black;
+      font-size: 1.8rem;
+    }}
+ 
+
+.container:hover {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+  
+.box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    backface-visibility: hidden;
+    
+    
+  }
+  
+  .overlay {
+    z-index: 9;
+    backface-visibility: hidden;
+    background: #009938;
+    transform: rotateY(180deg);
+  }
+  footer {
+    text-align: center;
+    padding: 5px;
+    background: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+  }
