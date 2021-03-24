@@ -9,7 +9,7 @@ function getweather(b){
     let status=b.getElementsByClassName("status")[0];
     
 
-    let url=`http://api.weatherstack.com/current?access_key=96f79c8e762b658f23661891e7808796&query=${cityname}`;
+    let url=`http://api.weatherstack.com/current?access_key=901cec9e0ba5da7fbebca30a9371b336&query=${cityname}`;
     console.log(url);
     fetch(url).then((res)=>{
 
